@@ -4,8 +4,11 @@ import Nav from './auth/Nav'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Nav />
-      <body>{children}</body>
+      <head />
+      <body className={`mx-4 md:mx-48 xl:mx-96 `}>
+        <Nav />
+        {children}
+      </body>
     </html>
   )
 }
