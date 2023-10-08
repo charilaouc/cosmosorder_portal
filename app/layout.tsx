@@ -6,7 +6,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head />
       <body className={`mx-4 md:mx-48 xl:mx-96 `}>
-        <Nav />
         {children}
       </body>
     </html>
